@@ -4,14 +4,7 @@ body{
     font-family: Roboto;
 }
 
-.page{
-    width:100%;
-    height:100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-}
 
 
 
@@ -22,18 +15,66 @@ body{
     gap:10px;
     width:100%;
     height: 60px;
+    background-color: #1f2937;
+    color: #e5e7eb;
    
 }
 
 .hero{
     background-color:#1f2937 ;
     width:100%;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex:1;
-    flex-direction: column;
     justify-content: center;
+    gap:20px;
     margin-bottom: 0;
+}
+
+.motivation{
+    background-color: #e5e7eb;
+    font-size:36px;
+    font-weight: 300;
+    color:#1f2937
+    height:300px;
+    width:100%;
+    margin-bottom: 0;
+}
+
+.action h2 {
+    margin-top: 0;
+}
+
+.container3{
+    margin-top: 0;
+    background-color: #86a3dd;
+    color:antiquewhite;
+    height:300px;
+    width:100%;
+    padding: 60px 40px;
+}
+
+.call-to-action{
+    width:85%;
+    height:200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.product{
+    margin-top: 0;
+}
+
+.quoter{
+    text-align:right;
+}
+
+.dimensions{
+display:flex;
+flex-direction: column;
+flex:1;
+flex-wrap: wrap;
+padding: 60px 40px;
 }
 
 p{
@@ -70,14 +111,7 @@ h2{
     border-radius: 10px;
 }
 
-.container1{
-    display: flex;
-    flex:1;
-    justify-content: center;
-    gap:20px;
-    margin-top: 0;
-    align-items: flex-start;
-}
+
 
 .container2{
     background-color:#a6d17a;
@@ -131,4 +165,13 @@ h2{
     height:100%;
 }
 
-
+.footer{
+    background-color: #1f2937;
+    width:100%;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
